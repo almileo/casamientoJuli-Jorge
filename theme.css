@@ -1,0 +1,150 @@
+*{
+    font-family: 'Antic Slab', serif;
+    font-size: 16px;
+    color: #222;
+}
+html, body{
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+.details-heading, a {
+    text-decoration: none;
+}
+
+.header{
+    background-image: url(./img/APAISADO.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 40vh;
+    margin: 0;
+    padding-top: 95vh;
+}
+.heading {
+    color: #9dafa7;
+    display: block;
+    font-family: 'Antic Slab', cursive;
+    font-size: 5em;
+    font-weight: normal;
+    position: relative;
+    bottom: 2.5em;
+}
+.heading-subtext{
+    color: #9dafa7;
+    display: block;
+    font-family: 'Antic Slab', cursive;
+    font-size: .4em;
+}
+.fixed-button{
+    background: rgba(20,20,20,.5);
+    border-radius: 1em;
+    bottom: 1em;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    position: fixed;
+    right: 1em;
+    text-decoration: none;
+    z-index: 9999;
+}
+.fixed-button::after{
+    content: "\25BE";
+    display: block;
+    font-size: 28px;
+    line-height: 0;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    text-align: center;
+}
+.fixed-button:active,
+.fixed-button:hover{
+    background: rgba(20,20,20,.9);
+}
+.section{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1em 2.4em;
+}
+.sub-heading{
+    font-family: 'Antic Slab', cursive;
+    font-size: 2em;
+    color: #71a9a4;
+    margin-top: 2em;
+}
+.details{
+    margin-bottom: 8em;
+}
+.details-heading{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.fas {
+    font-size: 3em;
+    opacity: .8;
+    color: #71a9a4;
+}
+
+#ubicacion {
+    font-size: 1.5em;
+    opacity: .8;
+    color: #71a9a4;
+}
+
+.resort-image{
+    width: 100%
+}
+
+.spotify {
+    margin-top: 2em;
+    width: 10em;
+}
+
+img {
+    max-width: 1000px;
+}
+@media only screen and (max-width: 600px) {
+
+    .header{
+        background-image: url(./img/Fondo\ casamiento\ LU\ Y\ LEO.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 60%;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 40vh;
+        margin: 0;
+        padding-top: 60vh;
+    }
+
+    .heading {
+        font-size: 3.3em;
+        position: relative;
+        bottom: 1.7em;
+    }
+
+    .spotify {
+        margin-top: 1em;
+        width: 7.5em;
+    }
+
+    .fixed-button{
+        background: rgba(20,20,20,.5);
+        border-radius: 1em;
+        bottom: 5em;
+        color: white;
+        font-weight: bold;
+        /* padding: 1em; */
+        position: fixed;
+        /* right: 1em; */
+        text-decoration: none;
+        z-index: 9999;
+    }
+
+    img {
+        max-width: 300px;
+    }
+
+  }
