@@ -14,7 +14,7 @@ html, body{
 }
 
 .header{
-    background-image: url(./img/APAISADO.jpg);
+    background-image: url(./img/Fondo\ casamiento\ LU\ Y\ LEO_cleanup.jpg);
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
@@ -71,7 +71,7 @@ html, body{
 .sub-heading{
     font-family: 'Antic Slab', cursive;
     font-size: 2em;
-    color: #71a9a4;
+    color: #8dc8e8;
     margin-top: 2em;
 }
 .details{
@@ -85,13 +85,13 @@ html, body{
 .fas {
     font-size: 3em;
     opacity: .8;
-    color: #71a9a4;
+    color: #8dc8e8;
 }
 
 #ubicacion {
     font-size: 1.5em;
     opacity: .8;
-    color: #71a9a4;
+    color: #8dc8e8;
 }
 
 .resort-image{
@@ -109,7 +109,7 @@ img {
 @media only screen and (max-width: 600px) {
 
     .header{
-        background-image: url(./img/Fondo\ casamiento\ LU\ Y\ LEO.jpg);
+        background-image: url(./img/Fondo\ casamiento\ LU\ Y\ LEO_cleanup.jpg);
         background-repeat: no-repeat;
         background-position: 50% 60%;
         background-attachment: scroll;
