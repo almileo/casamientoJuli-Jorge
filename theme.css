@@ -13,6 +13,10 @@ html, body{
     text-decoration: none;
 }
 
+.countdown{
+    margin-top: 4em;
+}
+
 .header{
     background-image: url(./img/Fondo\ casamiento\ LU\ Y\ LEO_cleanup.jpg);
     background-repeat: no-repeat;
